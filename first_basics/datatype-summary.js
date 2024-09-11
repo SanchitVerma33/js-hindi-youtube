@@ -33,3 +33,27 @@ const myFunction = function(){
 console.log ( typeof scoreValue);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ***************************************************
+
+// Stack(primitive), Heap(Non-primitive)
+
+let myChanelname = "Sanchit.com"
+
+let anothername = myChanelname
+anothername = "my chanel"
+
+console.log(myChanelname);
+console.log(anothername);
+
+let userOne = {
+    email:"user@xyz.com",
+    upi:"user@xyz"
+}
+
+let userTwo = userOne
+userTwo.email="sanchit@xyz.com"
+
+console.log(userOne.email);
+console.log(userOne.email);
